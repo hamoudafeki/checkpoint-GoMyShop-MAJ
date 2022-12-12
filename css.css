@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.parent{
+    display: flex;
+  justify-content: space-around;
+  margin-top: -50px;
+}
+
+
+.parent li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-left: 230px;
+
+}
+header {
+    position: fixed ;
+    width: 100%;
+    background-color: #3d4a59;
+    padding: 7px;
+    border-radius: 0 0 60px 60px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100px;
+    flex-wrap:wrap ;
+}
+.dark header{
+background-color: rgb(55, 53, 53) ;
+}
+.dark{
+    background-color: #443334;
+    opacity: 0.6;
+}
+.dark .footerElement{
+    background-color: rgb(55, 53, 53) ;
+}
+a{
+ font-family: 'Times New Roman', Times, serif;
+color:white !important;
+font-size: 25px ;
+padding: 20px 0;
+flex-wrap: wrap;
+cursor: pointer;
+}
+.design{
+    margin-bottom: 0;
+}
+
+.changemode{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    background-color: orange;
+    border-radius:60px 100px;
+flex-wrap: wrap;
+cursor: pointer;
+padding: 13px;
+margin-top: -10px;
+}
+.changemode:hover{
+    box-shadow: 0 0 10px orange;
+}
+a:hover{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.7s;
+}
+header img{
+    width: 170px;
+    border-radius: 60px 100px ;
+    margin-left: 2px;
+    margin-top: 15px;
+cursor: pointer;
+box-shadow: 0 0 10px orange;
+
+}
+.picover{
+    width: 100%;
+    border-radius: 30px;
+    height: 700px;   
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.footerElement{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3d4a59;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+   border-radius: 60px 60px 0 0;
+   padding: 7px;
+   position: relative;
+   margin-top: 3px;
+}
+
+.cardProduct{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.mycard{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+.js-buy{
+    background-color: orange ;
+    border-radius: 50px !important;
+    font-family: 'Times New Roman', Times, serif;
+margin-left :100px;
+
+}
+#buy:hover{
+    padding: 15px ;
+    transition: all 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin-top: 250px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 0;
+    width: 400px;
+    background-color: orange;
+}
+.container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px ;
+    color: black;
+}
+
+button{
+    background-color: orange !important;
+    border-radius: 50px !important;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    padding: 15px ;
+    border-radius: 50px !important;
+    transition: all 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.big-container{
+    background-color: #ece5dfb3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+.active{
+    display: block;
+}
+
+#thanks{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px ;
+    color:black;
+    border-radius: 50px orange;
+}
+
+.aboutus{
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 105px;
+    width: 700px;
+    height: 590px;   
+
+}
+.aboutus h1{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+h3{
+    text-align: center;
+    justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 350px;
+   border-radius: 60px 100px ;
+    box-shadow: 0 0 10px orange;
+   
+}
+.aboutus img{
+    width: 150px;
+    border-radius: 60px 100px ;
+    box-shadow: 0 0 10px orange;
+}
+#about{
+    margin-top: 50px;
+}
+.aboutus p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    color: black;
+}
+.bigAbout{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}  
+.contactclick{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 105px;
+    width: 700px;
+    height: 500px;
+}
+.contactclick img{
+    width: 150px;
+    border-radius: 60px 100px ;
+    box-shadow: 0 0 10px orange;
+    margin-top: 20px;
+}
+.contactclick h1{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contactclick p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px ;
+    color: black;
+}
+.bigContact{
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+
+.activeContact{
+    display: block;
+}
+
+#back{
+    margin-top: 55px;
+}
+

@@ -1,0 +1,18 @@
+ * Body {
+
+- header : navbar
+         . home (js : back home / CSS)
+         . about us (js : popup box / CSS)
+         . contact (js : popup box / CSS)
+         . change mode (js : toggle-dark-mode / CSS)
+         . logo (CSS)
+
+- main : 
+         . section 1 : picCover (CSS)
+         . section 2 : h1 + h2 (js : eventListener - mosehover / CSS)
+         . section 3 : card title (js : function buy-btn / function btn-add-card)
+
+
+- footer : description (CSS)
+
+        }
